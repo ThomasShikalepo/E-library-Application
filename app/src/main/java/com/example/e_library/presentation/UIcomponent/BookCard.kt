@@ -25,6 +25,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import coil.compose.SubcomposeAsyncImage
+import com.example.e_library.presentation.Effects.Imageani
 
 @Composable
 fun BookCard (
@@ -60,7 +61,7 @@ fun BookCard (
                 modifier = Modifier.size(100.dp)
                     .clip(RoundedCornerShape(8.dp)),
                 loading = {
-                    //use imageani()
+                    Imageani()
                 },
                 error = {
                     Text( text = "Error loading image")
