@@ -11,6 +11,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.compose.rememberNavController
+import com.example.e_library.presentation.navigation.NavGraph
 import com.example.e_library.ui.theme.ElibraryTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -23,7 +25,8 @@ class MainActivity : ComponentActivity() {
             ElibraryTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 
-                    )
+                    val navHostController = rememberNavController()
+                    NavGraph(navHostController)
                 }
             }
         }

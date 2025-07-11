@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import coil.compose.SubcomposeAsyncImage
 import com.example.e_library.presentation.Effects.Imageani
+import com.example.e_library.presentation.navigation.Routes
 
 @Composable
 fun BookCategoryCard(
@@ -35,8 +36,7 @@ fun BookCategoryCard(
     Card (
         modifier = Modifier.padding(8.dp)
             .clickable{
-                navHostController.navigate()
-                //navigate to bookscategory
+                navHostController.navigate(Routes.BookByCategory(category))
             }
     ) {
 

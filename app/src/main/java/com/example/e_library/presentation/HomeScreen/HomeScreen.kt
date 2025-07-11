@@ -75,7 +75,7 @@ fun HomeScreen(navHostController: NavHostController) {
                     Divider()
                     NavigationDrawerItem(
                         label = { Text(text = "Home") },
-                        selected = true,
+                        selected = false,
                         icon = {
                             Icon(
                                 imageVector = Icons.Filled.Home,
