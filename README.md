@@ -39,9 +39,13 @@ This project was created to showcase both design thinking and robust backend int
 
 ---
 
-## 📱 Screenshots (Coming Soon)
+## 📸 Screenshots
 
-> UI walkthrough and screen previews to be added here: Home Page, Category Page, PDF Viewer, etc.
+| Home Screen | Category View | PDF Reader |
+|-------------|----------------|-------------|
+| ![Home](https://via.placeholder.com/200x400?text=Home+Screen) | ![Category](https://via.placeholder.com/200x400?text=Category+View) | ![Reader](https://via.placeholder.com/200x400?text=PDF+Reader) |
+
+> Replace the placeholder image URLs above with your own screenshots, either uploaded in the repo (`/assets/`) or from an image host like Imgur or Cloudinary.
 
 ---
 
