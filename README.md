@@ -1,52 +1,69 @@
-# 📚 E-Library Application
+# 📚 E-Library Android Application
 
-A modern and intuitive E-Library Android application built using **Jetpack Compose**, designed to allow users to explore, read, and manage digital books seamlessly. This project serves both as a functional educational resource and a demonstration of mobile development skills using the latest Android technologies.
-
----
-
-## 🚀 Features
-
-- 📖 **View Books by Category**  
-  Browse books organized by genres or categories.
-
-- 🔍 **Search Functionality**  
-  Quickly find books using the search bar.
-
-- 📤 **Firebase Integration**  
-  Real-time database and cloud storage support for book data and files.
-
-- 📄 **PDF Book Viewer**  
-  Read books in-app using an integrated PDF viewer.
-
-- 🕓 **Splash Screen with Loading Animation**  
-  Clean splash screen with a circular progress indicator for a polished user experience.
-
-- 🌙 **Dark Themed UI**  
-  Visually appealing design using Material You and Compose best practices.
+Welcome to the **E-Library Application**, a fully responsive, modern Android app designed to make digital reading simple, accessible, and engaging. Built using **Jetpack Compose** and backed by **Firebase**, this app offers a clean, smooth experience for discovering and reading e-books. Whether you’re a student, a casual reader, or someone who just loves learning, this digital library platform is tailored for you.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Overview
 
-- **Kotlin** + **Jetpack Compose**
-- **Firebase Firestore** & **Firebase Storage**
-- **Bouquet PDF Viewer** library
-- **MVVM Architecture**
-- **Hilt** for dependency injection
-- **Navigation Compose** for seamless screen transitions
+In today's fast-moving world, physical libraries are becoming less accessible, especially in under-resourced communities. The E-Library App bridges that gap by providing users with **mobile access to books**, sorted by categories and enhanced with powerful tools like **real-time syncing, PDF viewing**, and a **cloud-based backend**.
+
+This project was created to showcase both design thinking and robust backend integration using **modern Android development practices**. It can be scaled for institutional use (e.g., schools or universities) or customized for commercial distribution.
 
 ---
 
-## 📸 Screenshots
+## 🌟 Key Features
 
-> (Add screenshots of key screens like Home, Category View, Book Viewer, etc.)
+### 📖 Book Catalog & Categories
+- Easily browse a wide selection of books, organized by genre.
+- Dynamically loaded from **Firebase Firestore** in real time.
+
+### 🔍 Search Functionality
+- Quickly find any book using a responsive search bar.
+
+### 📄 In-App PDF Book Reader
+- Read full PDF books directly within the app using **Bouquet’s VerticalPDFReader**.
+- Smooth scrolling and optimized for long reading sessions.
+
+### ⏳ Splash Screen with Circular Loading
+- Professionally designed launch screen with a loading animation that sets the tone for the app experience.
+
+### 🔥 Firebase Integration
+- **Firestore** for storing metadata (title, author, category, etc.)
+- **Firebase Storage** for hosting and retrieving actual PDF files.
+- Live data binding ensures instant updates across the app.
+
+### 🎨 Clean UI with Jetpack Compose
+- Built entirely with **Jetpack Compose** for a modern, declarative UI.
+- Dark theme and elegant typography for immersive reading.
 
 ---
 
-## 🔧 Setup Instructions
+## 📱 Screenshots (Coming Soon)
 
-1. **Clone the Repository**
+> UI walkthrough and screen previews to be added here: Home Page, Category Page, PDF Viewer, etc.
 
-   ```bash
-   git clone https://github.com/ThomasShikalepo/E-library-Application.git
-   cd E-library-Application
+---
+
+## 🛠 Tech Stack & Architecture
+
+| Layer              | Tech                                |
+|--------------------|-------------------------------------|
+| UI                 | Jetpack Compose, Material3          |
+| State Management   | ViewModel, State Hoisting           |
+| Dependency Injection | Hilt                             |
+| Backend/Database   | Firebase Firestore & Firebase Storage |
+| PDF Viewer         | [Bouquet](https://github.com/RizziTech/bouquet) |
+| Architecture       | MVVM (Model-View-ViewModel)         |
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally on your machine, follow these steps:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ThomasShikalepo/E-library-Application.git
+cd E-library-Application
