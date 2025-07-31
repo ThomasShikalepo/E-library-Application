@@ -40,14 +40,12 @@ This project was created to showcase both design thinking and robust backend int
 ---
 
 ## 📸 Screenshots
-
-| Home Screen | Category View | PDF Reader |
-|-------------|----------------|-------------|
-| ![Home](https://via.placeholder.com/200x400?text=Home+Screen) | ![Category](https://via.placeholder.com/200x400?text=Category+View) | ![Reader](https://via.placeholder.com/200x400?text=PDF+Reader) |
-
-> Replace the placeholder image URLs above with your own screenshots, either uploaded in the repo (`/assets/`) or from an image host like Imgur or Cloudinary.
-
 ---
+![IMG-20250731-WA0007](https://github.com/user-attachments/assets/52ff5720-30ed-4b7f-a3de-f0c29179230f)
+![drawer](https://github.com/user-attachments/assets/57158a49-257a-4b55-ab66-5f961fac2da1)
+![cartegory](https://github.com/user-attachments/assets/097b2484-10b8-40f0-b6e9-c5891b2c713a)
+![subcatergory](https://github.com/user-attachments/assets/2a76bcb2-1fce-4552-a8e5-80ffbfc0b5ed)
+![slapsh screen](https://github.com/user-attachments/assets/6a388b24-7cf1-4b45-91ae-5844c6c98d5b)
 
 ## 🛠 Tech Stack & Architecture
 
